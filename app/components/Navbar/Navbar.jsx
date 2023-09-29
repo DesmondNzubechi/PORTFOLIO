@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { BsGithub , BsLinkedin} from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
+    const pathname = usePathname();
     const navs = ['about', 'projects', 'contact']
     const [showNav, setShowNav] = useState('right-[-1000px]')
     return (
@@ -15,7 +17,7 @@ const Navbar = () => {
           
             <ul className={` font-fonty fixed ${showNav} w-[50%] md:w- top-0 justify-center md:static items-center bottom-0 md:px-0 md:py-0 py-[50px]  gap-[20px] px-[100px] flex flex-col md:flex-row  bg-slate-50 md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center `}>
        {navs.map(link => {
-                    return <li><Link onClick={() => setShowNav('right-[-1000px]')} className='text-[25px] ' href={link == 'home' ? '/' : link}>{ link}</Link></li>
+                    return <li><Link onClick={() => setShowNav('right-[-1000px]')} className={`link ${pathname == `/${link}`? 'font-bold' : ''} text-slate-900 text-[25px] `} href={link == 'home' ? '/' : link}>{ link}</Link></li>
        })}
                 <hr />
                      <div className='flex md:hidden gap-3 items-center'>

@@ -50,18 +50,18 @@ const Projects = () => {
                 <p className="text-[15px] md:text-[25px] text-slate-700 font-semibold">Take A Look At The Some Of The Project That I Built</p>
             </div>
             <div className="mt-[50px] flex items-center justify-center">
-                <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[100px] ">
+                <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-start gap-[50px] ">
                     {
                         projectItems.map((project, index) => {
-                            return <div className="flex flex-col   bg-white rounded-2xl  gap-2 p-5 rounded shadow-2xl" key={index}>
+                            return <div className="flex flex-col h-full justify-center  bg-white rounded-2xl  gap-2 p-5 rounded shadow-2xl" key={index}>
                                 <div>
                                     <Image className="shadow   rounded" src={project.ProjectImg} alt={project.projectName} />
                                 </div>
-                                <div className="max-w-[500px] flex flex-col gap-4">
-                                    <h1 className="font-bold uppercase text-[25px]">{project.projectName}</h1>
+                                <div className=" flex flex-col gap-4">
+                                    <h1 className="font-bold uppercase text-slate-900 text-[25px]">{project.projectName}</h1>
                                     <p className="text-slate-700  text-[12px] md:text-[15px] text-wrap"> {project.ProjectDescr}</p>
-                                    <p className=" flex gap-2 p-1 shadow  p-2 rounded items-center"> <b>TOOLS:</b>  {project.projectStack.map(stack => {
-                                        return <span className={`md:text-[15px] text-[12px] font-semibold   rounded w-full text-center  capitalize`}> {stack}</span>
+                                    <p className=" flex gap-2 p-1 shadow  p-2 rounded items-center"> <b className="text-slate-900">TOOLS:</b>  {project.projectStack.map(stack => {
+                                        return <span className={`md:text-[15px] text-[12px] font-semibold text-slate-700   rounded w-full text-center  capitalize`}> {stack}</span>
                                     })} </p>
                                     <div className="flex gap-3 items-center">
                                     <Link className="bg-blue-500 text-center w-full font-semibold capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live link</Link>
