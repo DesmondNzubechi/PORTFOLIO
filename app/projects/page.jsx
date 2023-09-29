@@ -44,9 +44,9 @@ const Projects = () => {
     ]
     return (
        
-        <div className="py-[100px] pt-[150px] bg-slate-50 overflow-x-hidden px-[20px]">
+        <div className="py-[100px] font-poppins pt-[150px] bg-slate-50 overflow-x-hidden px-[20px]">
             <div className="text-center">
-                <h1 className="uppercase text-blue-500 font-bold text-[25px] md:text-[50px]">My Projects</h1>
+                <h1 className="uppercase text-blue-500 font-bold font-headerFont text-[25px] md:text-[50px]">My Projects</h1>
                 <p className="text-[15px] md:text-[25px] text-slate-700 font-semibold">Take A Look At The Some Of The Project That I Built</p>
             </div>
             <div className="mt-[50px] flex items-center justify-center">
