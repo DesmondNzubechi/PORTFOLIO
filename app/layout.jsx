@@ -16,6 +16,7 @@ const Nanum = Nanum_Myeongjo({
 const inter = Inter({ subsets: ['latin'] });
 
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/footer';
 
 export const metadata = {
   title: 'Create Next App',
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.variable} ${Nanum.variable}`}>
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   )

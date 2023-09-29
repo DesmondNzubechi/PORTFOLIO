@@ -6,6 +6,7 @@ import lorddube from '../../public/lorddube.png';
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
+import { GiLinkedRings } from 'react-icons/gi';
 
 const Projects = () => {
     const projectItems = [
@@ -64,8 +65,8 @@ const Projects = () => {
                                         return <span className={`md:text-[15px] text-[12px] font-semibold text-slate-700   rounded w-full text-center  capitalize`}> {stack}</span>
                                     })} </p>
                                     <div className="flex gap-3 items-center">
-                                    <Link className="bg-blue-500 text-center w-full font-semibold capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live link</Link>
-                                        <Link className="flex w-full justify-center items-center p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
+                                    <Link className="bg-blue-500 text-center flex items-center justify-center gap-2 w-full hover:bg-slate-900 capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live <GiLinkedRings /></Link>
+                                        <Link className="flex w-full justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
                                    </div>
                                 </div>
                             </div>

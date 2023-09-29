@@ -21,15 +21,15 @@ const Navbar = () => {
        })}
                 <hr />
                      <div className='flex md:hidden gap-3 items-center'>
-          <BsGithub className='text-slate-900 text-[20px] ' />
-          <BsLinkedin className='text-slate-900 rounded  text-[20px] '/>
-          <AiFillTwitterCircle className='text-slate-900 text-[20px] '/>
+                     <Link className='flex flex-row gap-2 items-center' href='https://github.com/DesmondNzubechi'>   <BsGithub className='text-slate-900 hover:text-blue-500  bg-white shadow-2xl p-1 text-[30px] rounded-full ' /> </Link>
+                     <Link className='flex flex-row gap-2 items-center' href='https://linkedin.com/in/desmond-nzubechukwu-388954222/'> <BsLinkedin className='text-slate-900 hover:text-blue-500 rounded  bg-white shadow-2xl p-1 text-[30px] rounded-full '/></Link>
+                     <Link className='flex flex-row gap-2 items-center' href='https://twitter.com/Nzubechukwudev'> <AiFillTwitterCircle className='text-slate-900 hover:text-blue-500 bg-white shadow-2xl p-1 text-[30px] rounded-full '/></Link>
         </div>
                 </ul> 
                
             <div  className='relative z-10 flex md:hidden items-center '>
-              { showNav == 'right-[-1000px]' ? <AiOutlineMenu onClick={() => setShowNav('right-0')} className='text-[40px] text-black hover:text-blue-500' /> :
-                <FaXmark onClick={() => setShowNav('right-[-1000px]')} className='text-[40px] text-black hover:text-red-500'/>}
+              { showNav == 'right-[-1000px]' ? <AiOutlineMenu onClick={() => setShowNav('right-0')} className='text-[30px] text-black hover:text-blue-500' /> :
+                <FaXmark onClick={() => setShowNav('right-[-1000px]')} className='text-[30px] text-black hover:text-red-500'/>}
          </div>
        </nav>
     )
