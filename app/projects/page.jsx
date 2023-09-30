@@ -75,6 +75,10 @@ const Projects = () => {
 }
                 </div>
             </div>
+           
+               <Link className="flex my-[40px] font-bold capitalize justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href='/more-projects'>View more projects</Link> 
+                                   
+          
             </div>
             
     )

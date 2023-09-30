@@ -3,6 +3,9 @@ import eeunizik from '../../public/ee-unizik.png';
 import homedecor from '../../public/home-decor.png';
 import homebuilder from '../../public/homebuilder.png';
 import lorddube from '../../public/lorddube.png';
+import Myhealth from '../../public/myhealth.png';
+import AirtimeSeller from '../../public/Airtimeseller.png';
+import Fintek from '../../public/fintech.png';
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
@@ -43,18 +46,10 @@ const Projects = () => {
             ProjectUrl: 'buildhome.vercel.app',
         },
         {
-            ProjectImg: eeunizik,
-            projectName : 'EE-UNIZIK',
-            ProjectDescr : 'I\'m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. The website link will be available as soon as it\'s ready. ',
-            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
-            ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
-            ProjectUrl : 'nzubechukwu.com',
-        },
-        {
             ProjectImg: Myhealth,
             projectName : 'My Health',
-            ProjectDescr : 'This is a healthcare website where patients can book treatment online from comfort of their home. It  has great user experience',
-            projectStack: 'Stack/Tools used: Html, Css, Javascript',
+            ProjectDescr : 'This healthcare website provides patients with the convenience of booking medical treatments from the comfort of their homes. With a strong focus on enhancing the user experience, it offers a seamless and user-friendly interface. Patients can easily access a wide range of medical services and schedule appointments online. The platform\'s commitment to user satisfaction ensures a smooth and efficient process for patients seeking healthcare services.',
+            projectStack: [' Html' , 'Css', 'Javascript'],
             ProjectGit : 'github.com/DesmondNzubechi/Health-Care-Website',
             ProjectUrl : 'myhealth-by-nzubechukwu.netlify.app',
         },
@@ -62,7 +57,7 @@ const Projects = () => {
             ProjectImg: AirtimeSeller,
             projectName : 'Airtime Seller.',
             ProjectDescr : 'I built this website with a modern and responsive user interface that is intuitive and easy to use.',
-            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
+            projectStack: ['React','Tailwindcss'],
             ProjectGit : 'github.com/DesmondNzubechi/Airtime-seller',
             ProjectUrl : 'airtimeseller-by-nzubechukwu.vercel.app/',
         },
@@ -70,26 +65,17 @@ const Projects = () => {
             ProjectImg: Fintek,
             projectName : 'Fintekk',
             ProjectDescr : 'This is a fintek landing page.I built this website with a modern and responsive user interface that is intuitive and easy to use.',
-            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
+            projectStack: ['React','Tailwindcss'],
             ProjectUrl : 'fintekk-landing-page.vercel.app/',
             ProjectGit : 'github.com/DesmondNzubechi/fintekk-landing-page ',
-        },
-        {
-            ProjectImg: readerslodge,
-            projectName : 'Readers Lodge',
-            ProjectDescr : 'This is a book store that I built. The aim of the site is to give users to read/order and download different kinds of book from their home. The website is still under production but a demo link is provided below.  I built this website with a modern and responsive user interface that is intuitive and easy to use.',
-            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
-            ProjectUrl : 'readerslodge-by-nzubechukwu.vercel.app/',
-            ProjectGit : 'github.com/DesmondNzubechi/Readers-lodge',
         },
     ]
     return (
        
         <div className="py-[100px] font-poppins pt-[150px] bg-slate-50 overflow-x-hidden px-[20px]">
             <div className="text-center">
-                <h1 className="uppercase text-blue-500 font-bold font-headerFont text-[25px] md:text-[50px]">My Projects</h1>
-                <p className="text-[15px] md:text-[25px] text-slate-700 font-semibold">Take A Look At The Some Of The Project That I Built</p>
-            </div>
+                <h1 className="uppercase text-blue-500 font-bold font-headerFont text-[25px] md:text-[50px]">More of My Projects</h1>
+                </div>
             <div className="mt-[50px] flex items-center justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-start gap-[50px] ">
                     {
