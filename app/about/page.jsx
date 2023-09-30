@@ -1,5 +1,6 @@
 import AboutImg from '../../public/nzube.png';
 import Image from 'next/image';
+import Link from 'next/link';
 const About = () => {
     return <div className="min-h-[100vh] bg-slate-50">
    <div className="px-[30px] pb-[50px] to-blue-900 pt-[150px] min-h-[100vh] ">
@@ -24,8 +25,7 @@ const About = () => {
                             <span className='font-semibold shadow text-center p-1 rounded'>Firebase</span>
                             <span className='font-semibold shadow text-center p-1 rounded'>TailwindCSS</span>
   </div>
-  {/*<p className="md:text-[18px] text-[12px] ">My commitment to creating user-friendly, accessible web experiences remains unwavering. I am dedicated to crafting products that cater to users of all technical proficiencies, prioritizing inclusivity and user satisfaction above all else</p>
-  */}
+ <Link className='border p-2 rounded text-[15px] md:text-[20px] w-fit border-blue-500 text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-900 bg-blue-500' href='/contact'>Contact Me</Link>
  </div>
   </div>
 </div>
