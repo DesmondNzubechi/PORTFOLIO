@@ -13,7 +13,7 @@ const Projects = () => {
         {
             ProjectImg: eeunizik,
             projectName: 'EE-UNIZIK',
-            ProjectDescr: 'I built this Online learning learning for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website.  Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. Check it out using the link below ',
+            ProjectDescr: 'My colleague and I collaborated on developing an online learning platform for Electrical Engineering students at UNIZIK, where I served as the project manager and also personally developed the entire frontend. This innovative platform offers students access to course outlines, downloadable resources like handouts, exam past questions, and textbooks, along with a CGPA calculator for grade tracking students grade. Additionally, we maintain an informative blog section for updates in the field of electrical engineering.',
             projectStack: [ 'NodeJs', 'React',  'Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/ee-nau',
             ProjectUrl: 'ee-unizik.com',
@@ -21,7 +21,7 @@ const Projects = () => {
         {
             ProjectImg: homedecor,
             projectName: 'HOME DECOR',
-            ProjectDescr: 'Homedecor is a furniture ecommerce website where you can view different kind of furniture for your home and office. You can add items to the cart, you can also add favorite item to your wishlist. products in the cart are stored in the localstorage. You can also search for a specific product across the page. It also has checkout page for payment.',
+            ProjectDescr: 'Homedecor is a dedicated e-commerce platform specializing in furniture, offering a diverse range suitable for both homes and offices. the website ensures a seamless shopping experience, enabling users to explore an extensive catalog of furniture items. Users can conveniently add items to their shopping cart and create a personalized wishlist. The cart utilizes local storage for efficient item management. Additionally, a powerful search feature assists users in locating specific products. Notably, the website features a robust authentication system, allowing only authenticated users to access the checkout process.',
             projectStack: [' React','Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
             ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
@@ -29,7 +29,7 @@ const Projects = () => {
         {
             ProjectImg: lorddube,
             projectName: 'Lorddube logistic energy',
-            ProjectDescr: 'Lorddube Logistic Energy is website that I built for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . This website made it easy for their customer to access them online.',
+            ProjectDescr: 'I developed the Lorddube Logistic Energy website for a company based in Port Harcourt, Nigeria, specializing in the distribution of high-quality oil and gas tools. This website has been instrumental in providing an online platform for their customers to easily access their products and services, thereby enhancing their digital presence and customer reach.',
             projectStack: [ 'React', 'Tailwindcss', 'Git', 'Router'],
             ProjectGit: 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
             ProjectUrl: 'lorddubelogisticsenergy.com',
