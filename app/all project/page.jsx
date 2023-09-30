@@ -42,6 +42,46 @@ const Projects = () => {
             ProjectGit: 'github.com/DesmondNzubechi/beautiful-home',
             ProjectUrl: 'buildhome.vercel.app',
         },
+        {
+            ProjectImg: eeunizik,
+            projectName : 'EE-UNIZIK',
+            ProjectDescr : 'I\'m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. The website link will be available as soon as it\'s ready. ',
+            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
+            ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
+            ProjectUrl : 'nzubechukwu.com',
+        },
+        {
+            ProjectImg: Myhealth,
+            projectName : 'My Health',
+            ProjectDescr : 'This is a healthcare website where patients can book treatment online from comfort of their home. It  has great user experience',
+            projectStack: 'Stack/Tools used: Html, Css, Javascript',
+            ProjectGit : 'github.com/DesmondNzubechi/Health-Care-Website',
+            ProjectUrl : 'myhealth-by-nzubechukwu.netlify.app',
+        },
+        {
+            ProjectImg: AirtimeSeller,
+            projectName : 'Airtime Seller.',
+            ProjectDescr : 'I built this website with a modern and responsive user interface that is intuitive and easy to use.',
+            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
+            ProjectGit : 'github.com/DesmondNzubechi/Airtime-seller',
+            ProjectUrl : 'airtimeseller-by-nzubechukwu.vercel.app/',
+        },
+        {
+            ProjectImg: Fintek,
+            projectName : 'Fintekk',
+            ProjectDescr : 'This is a fintek landing page.I built this website with a modern and responsive user interface that is intuitive and easy to use.',
+            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
+            ProjectUrl : 'fintekk-landing-page.vercel.app/',
+            ProjectGit : 'github.com/DesmondNzubechi/fintekk-landing-page ',
+        },
+        {
+            ProjectImg: readerslodge,
+            projectName : 'Readers Lodge',
+            ProjectDescr : 'This is a book store that I built. The aim of the site is to give users to read/order and download different kinds of book from their home. The website is still under production but a demo link is provided below.  I built this website with a modern and responsive user interface that is intuitive and easy to use.',
+            projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
+            ProjectUrl : 'readerslodge-by-nzubechukwu.vercel.app/',
+            ProjectGit : 'github.com/DesmondNzubechi/Readers-lodge',
+        },
     ]
     return (
        
@@ -61,13 +101,12 @@ const Projects = () => {
                                 <div className=" flex flex-col gap-4">
                                     <h1 className="font-bold uppercase text-slate-900 text-[25px]">{project.projectName}</h1>
                                     <p className="text-slate-700  text-[12px] md:text-[15px] text-wrap"> {project.ProjectDescr}</p>
-                                    <b className="text-slate-900 mb-[-15px] ">TOOLS: </b>
-                                    <p className=" flex  flex-row gap-[2px] p-1 shadow  p-2 rounded items-center">   {project.projectStack.map(stack => {
+                                    <p className=" flex gap-2 p-1 shadow  p-2 rounded items-center"> <b className="text-slate-900">TOOLS:</b>  {project.projectStack.map(stack => {
                                         return <span className={`md:text-[15px] text-[12px] font-semibold text-slate-700   rounded w-full text-center  capitalize`}> {stack}</span>
                                     })} </p>
                                     <div className="flex gap-3 items-center">
                                     <Link className="bg-blue-500 text-center flex items-center justify-center gap-2 w-full hover:bg-slate-900 capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live <GiLinkedRings /></Link>
-                                    <Link className="flex w-full justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
+                                        <Link className="flex w-full justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
                                    </div>
                                 </div>
                             </div>

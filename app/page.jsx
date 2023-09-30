@@ -17,7 +17,6 @@ export default function Home() {
       </div>
       <Image className='bg-blue-500 transition shadow-2xl ease-in delay-100   rounded-full' alt='Nzubechukwu Desmond Abugu' src={myImage}></Image>
       </main>
-      <Projects/>
       </>
   )
 }
