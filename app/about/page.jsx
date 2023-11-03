@@ -16,16 +16,18 @@ const About = () => {
        </div>
   <div data-aos='fade-up' data-aos-duration='1000' className=" flex flex-col gap-5">
     <h1 className="text-slate-900 md:text-[30px] text-[25px] font-bold uppercase text-slate-900  font-headerFont">About Me</h1>
-    <div className="text-slate-700 font-fonty max-w-[700px] flex flex-col gap-2 ">
-    <p className="md:text-[18px] text-slate-700 text-[12px] ">My name is <strong className="uppercase text-slate-900 font-bold">Desmond Nzubechukwu Abugu</strong>, and I am  a <strong className='capitalize'>frontend developer</strong></p>
-  
-  <p className="md:text-[18px] text-slate-700 text-[12px] ">In my journey as a web developer, I've led a collaborative effort to create an online learning platform  for Electrical Engineering students at my institution.  This platform provides students with easy access to their course outlines, downloadable learning resources, and a convenient CGPA calculator. It includes a dynamic blog that keeps students updated with the latest news and developments in the field of Electrical Engineering. Serving as the project manager, I oversaw the frontend development and ensured effective communication throughout the project's lifecycle.</p>
-
+    <div className="text-slate-700 font-fonty max-w-[700px] flex flex-col gap-4 ">
+    <p className="md:text-[18px] text-slate-700 font-[500]  text-[15px] ">My name is <strong className="uppercase text-slate-900 font-bold">Desmond Nzubechukwu Abugu</strong>, and I am  a <strong className='capitalize'>frontend developer</strong></p>
+  {/* <p className="md:text-[18px] text-slate-700 text-[12px] ">In my journey as a web developer, I've led a collaborative effort to create an online learning platform  for Electrical Engineering students at my institution.  This platform provides students with easy access to their course outlines, downloadable learning resources, and a convenient CGPA calculator. It includes a dynamic blog that keeps students updated with the latest news and developments in the field of Electrical Engineering. Serving as the project manager, I oversaw the frontend development and ensured effective communication throughout the project's lifecycle.</p> */}
+              <p className="md:text-[18px] text-slate-700 font-[500]  text-[15px] ">In my journey as a web developer, I've led a collaborative effort to create an online learning platform for Electrical Engineering students at my institution.</p> 
+              <p className="md:text-[18px] text-slate-700 font-[500]  text-[15px] ">This platform provides students with easy access to their course outlines, downloadable learning resources, and a convenient CGPA calculator.</p> 
+              <p className="md:text-[18px] text-slate-700 font-[500]  text-[15px] ">It includes a dynamic blog that keeps students updated with the latest news and developments in the field of Electrical Engineering. </p> 
+              <p className="md:text-[18px] text-slate-700 font-[500]  text-[15px] ">Serving as the project manager, I oversaw the frontend development and ensured effective communication throughout the project's lifecycle.</p> 
  <Link className='border p-2 rounded text-[15px] md:text-[20px] w-fit border-blue-500 text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-900 bg-blue-500' href='/contact'>Contact Me</Link>
  </div>
-  </div>
+  </div> 
         </div>
-        <div className='py-[50px] '>
+        <div data-aos='fade-up' data-aos-duration='1000' className='py-[50px] '>
         <h1 className="text-slate-900 md:text-[30px] text-center text-[25px] font-bold uppercase text-slate-900 mb-[40px] font-headerFont">My skills</h1> 
           <div className='grid gap-5 md:gap-[40px]  grid-cols-2 md:grid-cols-4'>
             <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
