@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 import eeunizik from '../../public/ee-unizik.png';
 import homedecor from '../../public/home-decor.png';
 import homebuilder from '../../public/homebuilder.png';
@@ -10,6 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
 import { GiLinkedRings } from 'react-icons/gi';
+import Aos from "aos";
 
 const Projects = () => {
     const projectItems = [
@@ -70,17 +72,20 @@ const Projects = () => {
             ProjectGit : 'github.com/DesmondNzubechi/fintekk-landing-page ',
         },
     ]
+    useEffect(() => {
+        Aos.init();
+    })
     return (
        
         <div className="py-[100px] font-poppins pt-[150px] bg-slate-50 overflow-x-hidden px-[20px]">
-            <div className="text-center">
+            <div data-aos='fade-up' data-aos-duration='1000' className="text-center">
                 <h1 className="uppercase text-blue-500 font-bold font-headerFont text-[25px] md:text-[50px]">More of My Projects</h1>
                 </div>
             <div className="mt-[50px] flex items-center justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-start gap-[50px] ">
                     {
                         projectItems.map((project, index) => {
-                            return <div className="flex flex-col h-full justify-center  bg-white rounded-2xl  gap-2 p-5 rounded shadow-2xl" key={index}>
+                            return <div data-aos='fade-up' data-aos-duration='1000' className="flex flex-col h-full justify-center  bg-white rounded-2xl  gap-2 p-5 rounded shadow-2xl" key={index}>
                                 <div>
                                     <Image className="shadow   rounded" src={project.ProjectImg} alt={project.projectName} />
                                 </div>
