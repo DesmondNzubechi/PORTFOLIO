@@ -14,7 +14,7 @@ const Navbar = () => {
       duration: "duration-1000",
       display: "right-[-1000px]",
       transition: "transition-all",
-      animate: "ease-out"
+      animate: "ease-in"
   })
     return ( 
         <nav className='fixed z-[100] w-full bg-slate-50 overflow-x-hidden shadow-2xl flex flex-row justify-between py-[20px] z-[100] px-[30px]'>
@@ -23,10 +23,10 @@ const Navbar = () => {
             <ul className={` font-fonty fixed ${showNav.display} w-[50%] md:w- top-0 justify-center  md:static items-center bottom-0 md:px-0 md:py-0 py-[50px]  gap-[20px] px-[100px] md:px-[20px] flex flex-col md:flex-row  bg-slate-50 md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center ${shownav.transition} ${showNav.duration} ${showNav.animate} `}>
        {navs.map(link => {
                     return <li><Link onClick={() => setShowNav({
-                        duration: "duration-700",
+                        duration: "duration-1000",
       display: "right-[-1000px]",
       transition: "transition-all" 
-                        animate: "ease-out"
+                        animate: "ease-in"
                     })} className={`link ${pathname == `/${link}`? 'font-bold' : ''} text-slate-900 text-[25px] `} href={link == 'home' ? '/' : link}>{ link}</Link></li>
        })}
                 <hr />
@@ -42,13 +42,13 @@ const Navbar = () => {
                         duration: "duration-1000",
       display: "right-0",
       transition: "transition-all",
-            animate: "ease-out"
+            animate: "ease-in"
                     })} className='text-[30px] text-black hover:text-blue-500' /> :
                 <FaXmark onClick={() => setShowNav({
                         duration: "duration-1000",
       display: "right-[-1000px]",
       transition: "transition-all" ,
-                    animate: "ease-out"
+                    animate: "ease-in"
                     })} className='text-[30px] text-black hover:text-red-500'/>}
          </div>
        </nav>
