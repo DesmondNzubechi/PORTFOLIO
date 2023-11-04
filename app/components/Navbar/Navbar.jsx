@@ -6,20 +6,16 @@ import { BsGithub , BsLinkedin} from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import Aos from 'aos';
 
 const Navbar = () => {
     const pathname = usePathname(); 
     const navs = ['about', 'projects', 'contact']
   const [showNav, setShowNav] = useState('right-[-1000px]')
-  useEffect(() => {
-    Aos.init()
-  })
-    return (
-        <nav data-aos='fade-up' data-aos-duration='1000' className='fixed w-full bg-slate-50 overflow-x-hidden shadow-2xl flex flex-row justify-between py-[20px] z-[100] px-[30px]'>
+    return ( 
+        <nav className='fixed w-full bg-slate-50 overflow-x-hidden shadow-2xl flex flex-row justify-between py-[20px] z-[100] px-[30px]'>
             <Link className='font-headerFont font-bold text-black uppercase text-[25px]' href='/'>Nzubechukwu</Link>
           
-            <ul className={` font-fonty fixed ${showNav} w-[50%] md:w- top-0 justify-center  md:static items-center bottom-0 md:px-0 md:py-0 py-[50px]  gap-[20px] px-[100px] md:px-[20px] flex flex-col md:flex-row  bg-slate-50 md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center `}>
+            <ul className={` font-fonty fixed ${showNav} w-[50%] md:w- top-0 justify-center  md:static items-center bottom-0 md:px-0 md:py-0 py-[50px]  gap-[20px] px-[100px] md:px-[20px] flex flex-col md:flex-row  bg-slate-50 md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center transition duration-700 ease-in-out ... `}>
        {navs.map(link => {
                     return <li><Link onClick={() => setShowNav('right-[-1000px]')} className={`link ${pathname == `/${link}`? 'font-bold' : ''} text-slate-900 text-[25px] `} href={link == 'home' ? '/' : link}>{ link}</Link></li>
        })}

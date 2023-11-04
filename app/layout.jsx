@@ -16,7 +16,7 @@ const Nanum = Nanum_Myeongjo({
 })
 
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/footer';
+import Footer from './components/Footer/footer'; 
 
 export const metadata = {
   title: 'NZUBECHUKWU DESMOND ABUGU',
