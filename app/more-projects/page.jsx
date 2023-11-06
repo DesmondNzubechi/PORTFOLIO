@@ -20,7 +20,7 @@ const Projects = () => {
             projectName: 'EE-UNIZIK',
             ProjectDescr: 'My colleague and I collaborated on developing an online learning platform for Electrical Engineering students at UNIZIK, where I served as the project manager and also personally developed the entire frontend. This innovative platform offers students access to course outlines, downloadable resources like handouts, exam past questions, and textbooks, along with a CGPA calculator for grade tracking students grade. Additionally, we maintain an informative blog section for updates in the field of electrical engineering.',
             projectStack: [ 'NodeJs', 'React',  'Firebase', 'Tailwindcss'],
-            ProjectGit: 'github.com/DesmondNzubechi/ee-nau',
+            ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
             ProjectUrl: 'ee-unizik.com',
         },
         {
