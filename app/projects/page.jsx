@@ -22,6 +22,7 @@ const Projects = () => {
             projectStack: [ 'NodeJs', 'React',  'Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
             ProjectUrl: 'ee-unizik.com',
+            label: 'link to ee-unizik'
         },
         {
             ProjectImg: homedecor,
@@ -30,6 +31,7 @@ const Projects = () => {
             projectStack: [' React','Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
             ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
+            label: 'link to home-decor'
         },
         {
             ProjectImg: lorddube,
@@ -38,6 +40,7 @@ const Projects = () => {
             projectStack: [ 'React', 'Tailwindcss', 'Git', 'Router'],
             ProjectGit: 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
             ProjectUrl: 'lorddubelogisticsenergy.com',
+            label: 'link to Lorddube logistics energy'
         },
         {
             ProjectImg: homebuilder,
@@ -46,6 +49,7 @@ const Projects = () => {
             projectStack:  [' React', 'Tailwindcss' , 'firebase'],
             ProjectGit: 'github.com/DesmondNzubechi/beautiful-home',
             ProjectUrl: 'buildhome.vercel.app',
+            label: 'link to homebuilder'
         },
     ]
     return (
@@ -71,8 +75,8 @@ const Projects = () => {
                                         return <span className={`md:text-[15px] text-[12px] font-semibold text-slate-700   rounded w-full text-center  capitalize`}> {stack}</span>
                                     })} </p>
                                     <div className="flex gap-3 items-center">
-                                    <Link className="bg-blue-500 text-center flex items-center justify-center gap-2 w-full hover:bg-slate-900 capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live <GiLinkedRings /></Link>
-                                    <Link className="flex w-full justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
+                                    <Link aria-label={project.label} className="bg-blue-500 text-center flex items-center justify-center gap-2 w-full hover:bg-slate-900 capitalize text-slate-50 p-1 px-3 rounded text-[20px]" href={`https://${project.ProjectUrl}`}>Live <GiLinkedRings /></Link>
+                                    <Link aria-label={project.label} className="flex w-full justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href={`https://${project.ProjectGit}`}>code <AiFillGithub/></Link>
                                    </div>
                                 </div>
                             </div>
@@ -81,7 +85,7 @@ const Projects = () => {
                 </div>
             </div>
            
-               <Link className="flex my-[40px] font-bold capitalize justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href='/more-projects'>View more projects</Link> 
+               <Link aria-label="link to more projects" className="flex my-[40px] font-bold capitalize justify-center gap-2 items-center hover:bg-slate-900 hover:text-slate-50 text-slate-900 p-1 px-3 border text-[20px] rounded" href='/more-projects'>View more projects</Link> 
                                    
           
             </div>

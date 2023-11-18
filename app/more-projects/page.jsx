@@ -22,6 +22,7 @@ const Projects = () => {
             projectStack: [ 'NodeJs', 'React',  'Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
             ProjectUrl: 'ee-unizik.com',
+            label: 'link to ee-unizik'
         },
         {
             ProjectImg: homedecor,
@@ -30,14 +31,16 @@ const Projects = () => {
             projectStack: [' React','Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
             ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
+            label: 'link to home-decor'
         },
         {
             ProjectImg: lorddube,
-            projectName: 'Lorddube logistic energy',
+            projectName: 'Lorddube logistics energy',
             ProjectDescr: 'I developed the Lorddube Logistic Energy website for a company based in Port Harcourt, Nigeria, specializing in the distribution of high-quality oil and gas tools. This website has been instrumental in providing an online platform for their customers to easily access their products and services, thereby enhancing their digital presence and customer reach.',
             projectStack: [ 'React', 'Tailwindcss', 'Git', 'Router'],
             ProjectGit: 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
             ProjectUrl: 'lorddubelogisticsenergy.com',
+            label: 'link to Lorddube logistics energy'
         },
         {
             ProjectImg: homebuilder,
@@ -46,6 +49,7 @@ const Projects = () => {
             projectStack:  [' React', 'Tailwindcss' , 'firebase'],
             ProjectGit: 'github.com/DesmondNzubechi/beautiful-home',
             ProjectUrl: 'buildhome.vercel.app',
+            label: 'link to homebuilder'
         },
         {
             ProjectImg: Myhealth,
@@ -61,7 +65,8 @@ const Projects = () => {
             ProjectDescr : 'I built this website with a modern and responsive user interface that is intuitive and easy to use.',
             projectStack: ['React','Tailwindcss'],
             ProjectGit : 'github.com/DesmondNzubechi/Airtime-seller',
-            ProjectUrl : 'airtimeseller-by-nzubechukwu.vercel.app/',
+            ProjectUrl: 'airtimeseller-by-nzubechukwu.vercel.app/',
+            label: 'link to airtimeseller'
         },
         {
             ProjectImg: Fintek,
@@ -69,7 +74,8 @@ const Projects = () => {
             ProjectDescr : 'This is a fintek landing page.I built this website with a modern and responsive user interface that is intuitive and easy to use.',
             projectStack: ['React','Tailwindcss'],
             ProjectUrl : 'fintekk-landing-page.vercel.app/',
-            ProjectGit : 'github.com/DesmondNzubechi/fintekk-landing-page ',
+            ProjectGit: 'github.com/DesmondNzubechi/fintekk-landing-page ',
+            label: 'link to fintek landing page'
         },
     ]
     useEffect(() => {
