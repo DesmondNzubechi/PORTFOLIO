@@ -1,6 +1,5 @@
 import './globals.css';
 import { Nanum_Myeongjo, Poppins, Inter } from 'next/font/google';
-import nzube from '../public/nzube.png';
 
 const poppins = Poppins({
   subsets: ['latin'],

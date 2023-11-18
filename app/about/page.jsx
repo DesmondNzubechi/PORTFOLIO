@@ -24,7 +24,7 @@ const About = () => {
               <p className="md:text-[17px] text-slate-700   text-[15px] ">It includes a dynamic blog that keeps students updated with the latest news and developments in the field of Electrical Engineering. </p> 
               <p className="md:text-[17px] text-slate-700   text-[15px] ">Serving as the project manager, I oversaw the frontend development and ensured effective communication throughout the project's lifecycle.</p> 
               <p className="md:text-[17px] text-slate-700 text-[15px] ">In my career journey I have had the opportunity to collaborate with cross-functional teams, including designers, backend developers, and project managers, to deliver high-quality products on time and within budget. I am a strong communicator and collaborator, and enjoy working in fast-paced and dynamic environments.</p>
-              
+
  <Link className='border p-2 rounded text-[15px] md:text-[20px] w-fit border-blue-500 text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-900 bg-blue-500' href='/contact'>Contact Me</Link>
  </div>
   </div> 
@@ -64,13 +64,6 @@ const About = () => {
               <BiLogoFirebase className='text-[100px] text-blue-500 '/>
               <h2 className='text-slate-900  font-semibold text-[20px]'>Firebase</h2>
             </div>
-                            {/* <span className='font-semibold shadow text-center p-1 rounded'>HTML</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>CSS</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>JavaScript</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>ReactJS</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>Nextjs</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>Firebase</span>
-                            <span className='font-semibold shadow text-center p-1 rounded'>TailwindCSS</span> */}
   </div>
         </div>
       </div>
