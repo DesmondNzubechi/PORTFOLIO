@@ -17,7 +17,7 @@ const Navbar = () => {
           
             <div style={{transition: '1s' }} className={` font-fonty fixed ${showNav} w-[50%] md:w- top-0 justify-center  md:static items-center bottom-0 md:px-0 md:py-0 py-[50px]  gap-[20px] px-[100px] md:px-[20px] flex flex-col md:flex-row  bg-slate-50 md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center  `}>
        {navs.map(link => {
-                    return <li><Link onClick={() => setShowNav('right-[-1000px]')} className={`link ${pathname == `/${link}`? 'font-bold' : ''} text-slate-900 text-[15px] md:text-[20px] `} href={link == 'home' ? '/' : link}>{ link}</Link></li>
+                    return <Link aria-label='nav links' onClick={() => setShowNav('right-[-1000px]')} className={`link ${pathname == `/${link}`? 'font-bold' : ''} text-slate-900 text-[15px] md:text-[20px] `} href={link == 'home' ? '/' : link}>{ link}</Link>
        })}
                 <hr />
                      <div className='flex md:hidden gap-3 items-center'>
