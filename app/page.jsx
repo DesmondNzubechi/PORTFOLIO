@@ -13,7 +13,7 @@ export default function Home() {
 }, [])
   return (
     <>
-    <main className="flex min-h-screen lg:flex-row  gap-5 bg-slate-50  flex-col py-[100px] pt-[150px] items-center font-poppins justify-around p-10">
+    <main className="flex min-h-screen bg-white lg:flex-row  gap-5 bg-slate-50  flex-col py-[100px] pt-[150px] items-center font-poppins justify-around p-10">
       <div data-aos='fade-up' data-aos-duration='1000'  className='flex max-w-[700px] flex-col gap-5'>
         <h1 className='font-bold text-black text-[15px] font-headerFont uppercase md:text-[40px] '>Desmond Nzubechukwu</h1>
         <p className='text-[13px] text-slate-500 md:text-[25px] font-[400]'>I am a dedicated <strong className='text-slate-900'>Frontend Developer</strong> with a primary focus on delivering value and innovative solutions to businesses, organizations, and communities through the application of my skills and expertise.</p>
