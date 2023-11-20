@@ -26,7 +26,7 @@ const Contact = () => {
                 <AiFillTwitterCircle className='text-blue-500 text-[30px] md:text-[50px] p-1 md:p-2 bg-white rounded-full shadow-2xl'/>
                     <p className='text-slate-700 text-[20px]'>Twitter</p>
                 </Link>
-              <Link className='flex flex-row gap-2 items-center' href='mailto:nzubestdesmond@gmail.com'>
+              <Link className='flex flex-row gap-2 items-center' href='mailto:desmondnzubechukwu1@gmail.com'>
                 <AiOutlineMail className='text-blue-500 text-[30px] md:text-[50px] p-1 md:p-2 bg-white rounded-full shadow-2xl'/>
                     <p className='text-slate-700 text-[20px]'>Email</p>
                 </Link>
