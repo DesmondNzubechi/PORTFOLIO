@@ -7,6 +7,7 @@ import lorddube from '../../public/lorddube.png';
 import Myhealth from '../../public/myhealth.png';
 import AirtimeSeller from '../../public/Airtimeseller.png';
 import Fintek from '../../public/fintech.png';
+import canoegroups from '../../public/canoegroups.png';
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
@@ -23,6 +24,15 @@ const Projects = () => {
             ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
             ProjectUrl: 'ee-unizik.com',
             label: 'link to ee-unizik'
+        },
+        {
+            ProjectImg: canoegroups,
+            projectName: 'CANOE GROUPS',
+            ProjectDescr: 'I built this website for a prominent US-based company specializing in project design, implementation, and execution across various scales within emerging markets. I created an administrative dashboard that enables the company\'s administrators the ability to post, update, and delete relevant information on the website. This functionality provided the company with the flexibility it needed to keep its online presence current and informative.',
+            projectStack:  [' React', 'Tailwindcss' , 'firebase'],
+            ProjectGit: 'github.com/DesmondNzubechi/CANOEGROUPS',
+            ProjectUrl: 'canoegroups.com',
+            label: 'link to canoe groups'
         },
         {
             ProjectImg: homedecor,

@@ -35,15 +35,6 @@ const Projects = () => {
             label: 'link to canoe groups'
         },
         {
-            ProjectImg: homedecor,
-            projectName: 'HOME DECOR',
-            ProjectDescr: 'Homedecor is a dedicated e-commerce platform specializing in furniture, offering a diverse range suitable for both homes and offices. the website ensures a seamless shopping experience, enabling users to explore an extensive catalog of furniture items. Users can conveniently add items to their shopping cart and create a personalized wishlist. The cart utilizes local storage for efficient item management. Additionally, a powerful search feature assists users in locating specific products. Notably, the website features a robust authentication system, allowing only authenticated users to access the checkout process.',
-            projectStack: [' React','Firebase', 'Tailwindcss'],
-            ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
-            ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
-            label: 'link to home-decor'
-        },
-        {
             ProjectImg: lorddube,
             projectName: 'Lorddube logistic energy',
             ProjectDescr: 'I developed the Lorddube Logistic Energy website for a company based in Port Harcourt, Nigeria, specializing in the distribution of high-quality oil and gas tools. This website has been instrumental in providing an online platform for their customers to easily access their products and services, thereby enhancing their digital presence and customer reach.',
@@ -53,14 +44,23 @@ const Projects = () => {
             label: 'link to Lorddube logistics energy'
         },
         {
-            ProjectImg: homebuilder,
-            projectName: 'HOMEBUILDER',
-            ProjectDescr: 'This project is a real estate  website that I built with React, Tailwind CSS, and Firebase. I integrated Seamlessly search to explore properties based on location and budget, I integrated authentication using firebase, and  a dynamic admin dashboard for property listing, I also made the property listing available for anyone to test the features. Experience enhanced communication and discover the latest listings, making this project an invaluable addition to any real estate venture.',
-            projectStack:  [' React', 'Tailwindcss' , 'firebase'],
-            ProjectGit: 'github.com/DesmondNzubechi/beautiful-home',
-            ProjectUrl: 'buildhome.vercel.app',
-            label: 'link to homebuilder'
+            ProjectImg: homedecor,
+            projectName: 'HOME DECOR',
+            ProjectDescr: 'Homedecor is a dedicated e-commerce platform specializing in furniture, offering a diverse range suitable for both homes and offices. the website ensures a seamless shopping experience, enabling users to explore an extensive catalog of furniture items. Users can conveniently add items to their shopping cart and create a personalized wishlist. The cart utilizes local storage for efficient item management. Additionally, a powerful search feature assists users in locating specific products. Notably, the website features a robust authentication system, allowing only authenticated users to access the checkout process.',
+            projectStack: [' React','Firebase', 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
+            ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
+            label: 'link to home-decor'
         },
+        // {
+        //     ProjectImg: homebuilder,
+        //     projectName: 'HOMEBUILDER',
+        //     ProjectDescr: 'This project is a real estate  website that I built with React, Tailwind CSS, and Firebase. I integrated Seamlessly search to explore properties based on location and budget, I integrated authentication using firebase, and  a dynamic admin dashboard for property listing, I also made the property listing available for anyone to test the features. Experience enhanced communication and discover the latest listings, making this project an invaluable addition to any real estate venture.',
+        //     projectStack:  [' React', 'Tailwindcss' , 'firebase'],
+        //     ProjectGit: 'github.com/DesmondNzubechi/beautiful-home',
+        //     ProjectUrl: 'buildhome.vercel.app',
+        //     label: 'link to homebuilder'
+        // },
     ]
     return (
        
