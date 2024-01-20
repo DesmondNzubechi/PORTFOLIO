@@ -5,6 +5,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3, BiLogoJavascript, BiLogoFirebase, BiLogoTailwindCss } from 'react-icons/bi';
 import { FaReact, FaBootstrap } from 'react-icons/fa';
+import { SiTypescript } from "react-icons/si";
 
 const About = () => {
     return <div className="min-h-[100vh] bg-slate-50">
@@ -33,6 +34,22 @@ const About = () => {
         <h1 className="text-slate-900 md:text-[30px] text-center text-[25px] font-bold uppercase text-slate-900 mb-[40px] font-headerFont">My skills</h1> 
           <div className='grid gap-5 md:gap-[40px]  grid-cols-2 md:grid-cols-4'>
             <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
+              <BiLogoJavascript className='text-[100px] text-blue-500 '/>
+              <h2 className='text-slate-900  font-semibold text-[20px]'>Javascript</h2>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
+              <SiTypescript className='text-[100px] text-blue-500 '/>
+              <h2 className='text-slate-900  font-semibold text-[20px]'>Typescript</h2>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
+              <FaReact className='text-[100px] text-blue-500 '/>
+              <h2 className='text-slate-900  font-semibold text-[20px]'>ReactJs</h2>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
+              <TbBrandNextjs className='text-[100px] text-blue-500 '/>
+              <h2 className='text-slate-900  font-semibold text-[20px]'>NextJs</h2>
+            </div>
+            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
               <AiFillHtml5 className='text-[100px] text-blue-500 '/>
               <h2 className='text-slate-900  font-semibold text-[20px]'>HTML</h2>
             </div>
@@ -49,21 +66,10 @@ const About = () => {
               <h2 className='text-slate-900  font-semibold text-[20px]'>TailwindCSS</h2> 
             </div>
             <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
-              <BiLogoJavascript className='text-[100px] text-blue-500 '/>
-              <h2 className='text-slate-900  font-semibold text-[20px]'>Javascript</h2>
-            </div>
-            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
-              <FaReact className='text-[100px] text-blue-500 '/>
-              <h2 className='text-slate-900  font-semibold text-[20px]'>ReactJs</h2>
-            </div>
-            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
-              <TbBrandNextjs className='text-[100px] text-blue-500 '/>
-              <h2 className='text-slate-900  font-semibold text-[20px]'>NextJs</h2>
-            </div>
-            <div className='flex flex-col items-center p-2 rounded-xl justify-center gap-1 shadow-2xl hover:bg-slate-200 cursor-pointer  '>
               <BiLogoFirebase className='text-[100px] text-blue-500 '/>
               <h2 className='text-slate-900  font-semibold text-[20px]'>Firebase</h2>
             </div>
+
   </div>
         </div>
       </div>
