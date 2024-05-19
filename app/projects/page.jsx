@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
 import { GiLinkedRings } from 'react-icons/gi';
+import mySocial from '../../public/Mysocial.png';
 import Aos from "aos";
 
 const Projects = () => {
@@ -24,6 +25,15 @@ const Projects = () => {
             ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
             ProjectUrl: 'ee-unizik.com',
             label: 'link to ee-unizik'
+        },
+        {
+            ProjectImg: mySocial,
+            projectName: 'MySocial',
+            ProjectDescr: 'MYsocial is a project I made, a friendly social platform for chatting and building community. With instant messaging, chatting with friends or new people is simple. Share your thoughts, stories, and pictures to celebrate or talk about trends. Interact by liking, reposting, and commenting on posts from others, creating a lively community with shared interests. MYsocial is about meaningful connections, where you can explore, chat, and share in a welcoming space. It\'s all about making online socializing enjoyable and easy, evolving to make connecting with others a breeze.',
+            projectStack:  [' NextJs', 'Typescript' , 'firebase', 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi/MY-SOCIAL',
+            ProjectUrl: 'myusocial.vercel.app',
+            label: 'link to my social'
         },
         {
             ProjectImg: canoegroups,
