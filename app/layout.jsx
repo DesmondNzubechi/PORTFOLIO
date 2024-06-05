@@ -12,7 +12,7 @@ const Nanum = Nanum_Myeongjo({
   display: 'swap',
   weight: '400',
   variable: '--font-nanum',
-})
+}) 
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/footer'; 

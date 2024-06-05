@@ -27,6 +27,15 @@ const Projects = () => {
             label: 'link to ee-unizik'
         },
         {
+            ProjectImg: eeunizik,
+            projectName: 'B2R-TECH',
+            ProjectDescr: 'I developed this website for a tech startup composed of a team of like-minded individuals dedicated to providing tech services to businesses. The website showcases their expertise and services, helping to meet client needs and solve their problems. By highlighting the team\'s capabilities, the site also builds customer trust in their solutions.',
+            projectStack: ["NextJs", "Typescript", 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi/B2R-TECH',
+            ProjectUrl: 'b2r-tech.com',
+            label: 'link to B2R-TECH'
+        },
+        {
             ProjectImg: mySocial,
             projectName: 'MySocial',
             ProjectDescr: 'MYsocial is a project I made, a friendly social platform for chatting and building community. With instant messaging, chatting with friends or new people is simple. Share your thoughts, stories, and pictures to celebrate or talk about trends. Interact by liking, reposting, and commenting on posts from others, creating a lively community with shared interests. MYsocial is about meaningful connections, where you can explore, chat, and share in a welcoming space. It\'s all about making online socializing enjoyable and easy, evolving to make connecting with others a breeze.',
