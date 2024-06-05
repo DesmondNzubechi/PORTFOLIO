@@ -5,6 +5,7 @@ import homedecor from '../../public/home-decor.png';
 import homebuilder from '../../public/homebuilder.png';
 import lorddube from '../../public/lorddube.png';
 import canoegroups from '../../public/canoegroups.png';
+import b2rTech from '../../public/B2R-TECH.png';
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
