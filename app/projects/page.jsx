@@ -28,7 +28,7 @@ const Projects = () => {
             label: 'link to ee-unizik'
         },
         {
-            ProjectImg: eeunizik,
+            ProjectImg: b2rTech,
             projectName: 'B2R-TECH',
             ProjectDescr: 'I developed this website for a tech startup composed of a team of like-minded individuals dedicated to providing tech services to businesses. The website showcases their expertise and services, helping to meet client needs and solve their problems. By highlighting the team\'s capabilities, the site also builds customer trust in their solutions.',
             projectStack: ["NextJs", "Typescript", 'Tailwindcss'],
