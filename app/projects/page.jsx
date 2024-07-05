@@ -5,7 +5,7 @@ import homedecor from '../../public/home-decor.png';
 import homebuilder from '../../public/homebuilder.png';
 import lorddube from '../../public/lorddube.png';
 import canoegroups from '../../public/canoegroups.png';
-import b2rTech from '../../public/B2R-TECH.png';
+import dexDigit from '../../public/dexdigit.png';
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
@@ -28,13 +28,13 @@ const Projects = () => {
             label: 'link to ee-unizik'
         },
         {
-            ProjectImg: b2rTech,
-            projectName: 'B2R-TECH',
+            ProjectImg: dexDigit,
+            projectName: 'DexDigit',
             ProjectDescr: 'I developed this website for a tech startup composed of a team of like-minded individuals dedicated to providing tech services to businesses. The website showcases their expertise and services, helping to meet client needs and solve their problems. By highlighting the team\'s capabilities, the site also builds customer trust in their solutions.',
             projectStack: ["NextJs", "Typescript", 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/B2R-TECH',
-            ProjectUrl: 'b2r-tech.com',
-            label: 'link to B2R-TECH'
+            ProjectUrl: 'dexdigit.com',
+            label: 'link to dexdigit'
         },
         {
             ProjectImg: mySocial,
