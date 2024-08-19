@@ -18,6 +18,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/footer'; 
 
 export const metadata = {
+  manifest : '/manifest.json',
   title: 'NZUBECHUKWU DESMOND ABUGU',
   description: 'Desmond Nzubechukwu Personal portfolio website',
   
