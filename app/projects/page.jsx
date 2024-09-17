@@ -30,10 +30,10 @@ const Projects = () => {
         {
             ProjectImg: realEstate,
             projectName: 'HOME FEATURES',
-            ProjectDescr: 'This project is the frontend for a Real Estate Platform, designed to offer a seamless user experience for exploring property listings, managing user accounts, and interacting with blog content. It integrates with a backend API to provide real-time property data, account management features, and a responsive, mobile-friendly design.',
-            projectStack: [ 'NodeJs', 'ExpressJs', 'NextJs', "Typescript", 'Tailwindcss'],
-            ProjectGit: 'https://github.com/DesmondNzubechi/REAL-ESTATE-FRONTEND',
-            ProjectUrl: 'https://homefeatures-frontend.vercel.app/',
+            ProjectDescr: 'Home Features is a Real Estate Platform, designed to offer a seamless user experience for exploring property listings, managing user accounts, and interacting with blog content. It integrates with a backend API to provide real-time property data, account management features, and a responsive, mobile-friendly design.',
+            projectStack: [ 'NodeJs', 'NextJs', "Typescript", 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi/REAL-ESTATE-FRONTEND',
+            ProjectUrl: 'homefeatures-frontend.vercel.app/',
             label: 'link to home features'
         },
         {
