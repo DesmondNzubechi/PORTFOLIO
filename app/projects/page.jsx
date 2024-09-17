@@ -46,6 +46,15 @@ const Projects = () => {
             label: 'link to my social'
         },
         {
+            ProjectImg: homedecor,
+            projectName: 'HOME DECOR',
+            ProjectDescr: 'Homedecor is a dedicated e-commerce platform specializing in furniture, offering a diverse range suitable for both homes and offices. the website ensures a seamless shopping experience, enabling users to explore an extensive catalog of furniture items. Users can conveniently add items to their shopping cart and create a personalized wishlist. The cart utilizes local storage for efficient item management. Additionally, a powerful search feature assists users in locating specific products. Notably, the website features a robust authentication system, allowing only authenticated users to access the checkout process.',
+            projectStack: [' React','Firebase', 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi/Home-decor',
+            ProjectUrl: 'home-decor-by-nzubechukwu.vercel.app',
+            label: 'link to home-decor'
+        },
+        {
             ProjectImg: canoegroups,
             projectName: 'CANOE GROUPS',
             ProjectDescr: 'I built this website for a prominent US-based company specializing in project design, implementation, and execution across various scales within emerging markets. I created an administrative dashboard that enables the company\'s administrators the ability to post, update, and delete relevant information on the website. This functionality provided the company with the flexibility it needed to keep its online presence current and informative.',
