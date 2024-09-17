@@ -10,6 +10,7 @@ import Link from "next/link";
 import { AiFillGithub } from 'react-icons/ai';
 import { GiLinkedRings } from 'react-icons/gi';
 import mySocial from '../../public/Mysocial.png';
+import realEstate from '../../public/realestate.png'
 import Aos from "aos";
 
 const Projects = () => {
@@ -23,8 +24,17 @@ const Projects = () => {
             ProjectDescr: 'My colleague and I collaborated on developing an online learning platform for Electrical Engineering students at UNIZIK, where I served as the project manager and also personally developed the entire frontend. This innovative platform offers students access to course outlines, downloadable resources like handouts, exam past questions, and textbooks, along with a CGPA calculator for grade tracking students grade. Additionally, we maintain an informative blog section for updates in the field of electrical engineering.',
             projectStack: [ 'NodeJs', 'React',  'Firebase', 'Tailwindcss'],
             ProjectGit: 'github.com/DesmondNzubechi/Unizik-EE',
-            ProjectUrl: 'ee-unizik.com',
+            ProjectUrl: 'eeunizik.vercel.app',
             label: 'link to ee-unizik'
+        },
+        {
+            ProjectImg: realEstate,
+            projectName: 'HOME FEATURES',
+            ProjectDescr: 'This project is the frontend for a Real Estate Platform, designed to offer a seamless user experience for exploring property listings, managing user accounts, and interacting with blog content. It integrates with a backend API to provide real-time property data, account management features, and a responsive, mobile-friendly design.',
+            projectStack: [ 'NodeJs', 'ExpressJs', 'NextJs', "Typescript", 'Tailwindcss'],
+            ProjectGit: 'https://github.com/DesmondNzubechi/REAL-ESTATE-FRONTEND',
+            ProjectUrl: 'https://homefeatures-frontend.vercel.app/',
+            label: 'link to home features'
         },
         {
             ProjectImg: mySocial,
