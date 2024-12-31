@@ -11,6 +11,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { GiLinkedRings } from 'react-icons/gi';
 import mySocial from '../../public/Mysocial.png';
 import realEstate from '../../public/realestate.png'
+import uevent from '../../public/uevent.png'
 import Aos from "aos";
 
 const Projects = () => {
@@ -27,6 +28,15 @@ const Projects = () => {
             ProjectUrl: 'eeunizik.vercel.app',
             label: 'link to ee-unizik'
         },
+        {
+            ProjectImg: uevent,
+            projectName: 'UEVENT MANAGEMENT',
+            ProjectDescr: 'UEVENT MANAGEMENT is an event booking system that helps users buy and sell event tickets easily. It lets people find events, purchase tickets, and manage their bookings quickly. The platform is simple to use, works on all devices, and ensures secure transactions for both event organizers and attendees.',
+            projectStack: [ 'NodeJs', 'NextJs', 'Typescript', 'Tailwindcss' ],
+            ProjectGit: 'github.com/DesmondNzubechi/EVENT-MANAGEMENT-FRONTEND',
+            ProjectUrl: 'ueventmanagement.vercel.app/',
+            label: 'link to uevent management'
+        },        
         {
             ProjectImg: realEstate,
             projectName: 'HOME FEATURES',
