@@ -12,6 +12,7 @@ import { GiLinkedRings } from 'react-icons/gi';
 import mySocial from '../../public/Mysocial.png';
 import realEstate from '../../public/realestate.png'
 import uevent from '../../public/uevent.png'
+import lawFirm from '../../public/LawFirm.png'
 import Aos from "aos";
 
 const Projects = () => {
@@ -19,6 +20,15 @@ const Projects = () => {
       Aos.init({duration: 1000})
     }, [])
     const projectItems = [
+        {
+            ProjectImg: lawFirm,
+            projectName: 'Your Favorite Immigration Law Firm',
+            ProjectDescr: 'I developed this website for an immigration law firm located in the united states that specializes in providing comprehensive immigration services. The site enhances their online visibility, builds trust with potential clients, and effectively showcases their expertise to a global audience.',
+            projectStack: [ 'React', 'Superbase',  'Typescript', 'Tailwindcss'],
+            ProjectGit: 'github.com/DesmondNzubechi',
+            ProjectUrl: 'yourfavoriteimmigrationlawfirm.com',
+            label: 'link to your facorite immigration law firm'
+        },
         {
             ProjectImg: eeunizik,
             projectName: 'EE-UNIZIK',
