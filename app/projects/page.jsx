@@ -2,7 +2,6 @@
 import React, { useEffect } from "react";
 import eeunizik from "../../public/ee-unizik.png";
 import homedecor from "../../public/home-decor.png";
-import homebuilder from "../../public/homebuilder.png";
 import lorddube from "../../public/lorddube.png";
 import canoegroups from "../../public/canoegroups.png";
 import Image from "next/image";
@@ -13,6 +12,7 @@ import mySocial from "../../public/Mysocial.png";
 import realEstate from "../../public/realestate.png";
 import uevent from "../../public/uevent.png";
 import lawFirm from "../../public/LawFirm.png";
+import eesanight from "../../public/eesanight.png";
 import attendify from "../../public/attendify.png";
 import Aos from "aos";
 
@@ -22,6 +22,22 @@ const Projects = () => {
   }, []);
   const projectItems = [
     {
+      ProjectImg: eesanight,
+      projectName: "EESA NIGHT",
+      ProjectDescr:
+        "EESA Night is a digital ticketing platform I developed to streamline the process of selling tickets for an upcoming event hosted at my school. As one of the event organizers, we faced the challenge of distributing gate pass tickets efficiently without relying on printed copies. To solve this, I built an online system where attendees can purchase their tickets digitally, making the process faster, more organized, and easier to manage.",
+      projectStack: [
+        "React",
+        "NodeJs",
+        "ExpressJs",
+        "Typescript",
+        "Tailwindcss",
+      ],
+      ProjectGit: "https://github.com/DesmondNzubechi",
+      ProjectUrl: "eesanight.vercel.app/",
+      label: "link to eesa night",
+    },
+      {
       ProjectImg: attendify,
       projectName: "Attendify",
       ProjectDescr:
